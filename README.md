@@ -1,7 +1,7 @@
 # ಸಾರ್ವಜನಿಕ ಸಂಪರ್ಕ ಕೇಂದ್ರ, ದೇವನಹಳ್ಳಿ – Kannada website
 
 Client: Dr. T. M. Sahadesh (ಡಾ. ಟಿ.ಎಂ. ಸಹದೇಶ್), Founder State President.
-Built by SWAN Digital Solutions, October 2026.
+Built by SWAN Digital Solutions, October 2026. Live: https://sahadesh.vercel.app (Vercel project `sahadesh`, deploys on every push to `main`).
 
 ## What it is
 - Static, Kannada-only website: 80 pages, a main portal plus 12 themed sub-websites
@@ -29,13 +29,13 @@ python -m http.server 5240 --directory site   # local preview at http://localhos
 ```
 
 ## Going live (Hostinger / any Apache host)
-1. Set the real domain in `site-src/data.mjs` → `site.url`, rebuild.
+1. If a custom domain is added, set it in `site-src/data.mjs` → `site.url` and rebuild.
 2. Upload everything inside `site/` (including `.htaccess`) to `public_html/`.
 3. Add the domain in Google Search Console and submit `/sitemap.xml`.
 
 ## Confirm with the client before launch
 1. Official logo file – the round emblem in the header is a stand-in drawn in code.
-2. Domain name (placeholder: sarvajanikasamparka.in).
+2. Custom domain, if wanted (the site currently uses https://sahadesh.vercel.app).
 3. Contact count for the record: certificate says 23,000+, bio poster says 25,000+, Asia Book of Records poster says 20,000. Site shows "23,000+ (Guinness), now 25,000+".
 4. Doctorate university name: certificate "Hosur Global University", bio poster "Global International University, Hosur". Site says "ಹೊಸೂರಿನ ಗ್ಲೋಬಲ್ ಯೂನಿವರ್ಸಿಟಿ".
 5. Gruha Lakshmi life-certificate rule (1 Nov – 31 Dec) is taken from their poster – confirm it is official.

@@ -1,6 +1,6 @@
-// cache: mvvd2d46
-const V = 'ssk-mvvd2d46';
-const CORE = ['./', 'assets/style.css?v=mvvd2d46', 'assets/app.js?v=mvvd2d46', 'search.json'];
+// cache: mvvdegzg
+const V = 'ssk-mvvdegzg';
+const CORE = ['./', 'assets/style.css?v=mvvdegzg', 'assets/app.js?v=mvvdegzg', 'search.json'];
 self.addEventListener('install', (e) => e.waitUntil(caches.open(V).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())));
 self.addEventListener('activate', (e) => e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== V).map((k) => caches.delete(k)))).then(() => self.clients.claim())));
 self.addEventListener('fetch', (e) => {

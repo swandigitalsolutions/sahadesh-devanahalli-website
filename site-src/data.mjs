@@ -17,8 +17,8 @@ export const site = {
   instagram: 'https://instagram.com/devanahallisahadesh',
   youtubeName: 'ನಿಮ್ಮ ಸಹದೇಶ್ ದೇವನಹಳ್ಳಿ',
   facebookName: 'ಸಾರ್ವಜನಿಕ ಸಂಪರ್ಕ ಕೇಂದ್ರ ದೇವನಹಳ್ಳಿ',
-  // Set the real domain before going live (used for canonical / sitemap / share cards).
-  url: 'https://www.sarvajanikasamparka.in',
+  // Live address (canonical links, sitemap, WhatsApp/Facebook share cards). Change if a custom domain is added.
+  url: 'https://sahadesh.vercel.app',
 };
 
 // --------------------------------------------------------------------------
