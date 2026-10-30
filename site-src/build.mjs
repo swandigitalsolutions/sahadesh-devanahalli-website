@@ -18,11 +18,21 @@ const ic = (n, cls = '') => `<svg class="ic${cls ? ' ' + cls : ''}" aria-hidden=
 const sub = (k) => D.subsites.find((s) => s.key === k);
 const tel = (n) => `tel:+91${n.replace(/\D/g, '').replace(/^91(?=\d{10}$)/, '')}`;
 const wa = (text = '') => `https://wa.me/91${S.whatsapp}${text ? '?text=' + encodeURIComponent(text) : ''}`;
+// Default display sizes for cards in the responsive grids; pass o.sizes for other layouts.
+const CARD_SIZES = '(max-width: 640px) 92vw, (max-width: 1000px) 46vw, 380px';
+const srcset = (name) => {
+  const [w] = sizes[`${name}.webp`] || [800];
+  const sm = sizes[`${name}-sm.webp`];
+  return sm ? `~/img/${name}-sm.webp ${sm[0]}w, ~/img/${name}.webp ${w}w` : '';
+};
 function pic(name, alt, o = {}) {
   const key = `${name}.webp`;
   const [w, h] = sizes[key] || [800, 600];
-  return `<img src="~/img/${key}" width="${w}" height="${h}" alt="${esc(alt)}"${o.eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"${o.cls ? ` class="${o.cls}"` : ''}>`;
+  const set = srcset(name);
+  return `<img src="~/img/${key}"${set ? ` srcset="${set}" sizes="${o.sizes || CARD_SIZES}"` : ''} width="${w}" height="${h}" alt="${esc(alt)}"${o.eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"${o.cls ? ` class="${o.cls}"` : ''}>`;
 }
+const HERO_SIZES = '(max-width: 900px) 92vw, 440px';
+const PHERO_SIZES = '(max-width: 900px) 92vw, 460px';
 
 // Same rules as app.js so pages read correctly even before scripts run
 const T0 = (() => { const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); })();
@@ -129,7 +139,7 @@ function layout(page) {
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@600;700;800&family=Noto+Sans+Kannada:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="~/assets/style.css?v=${VER}">
-${page.preload ? `<link rel="preload" as="image" href="~/img/${page.preload}.webp" fetchpriority="high">` : ''}${ld}
+${page.preload ? `<link rel="preload" as="image" href="~/img/${page.preload}.webp"${srcset(page.preload) ? ` imagesrcset="${srcset(page.preload)}" imagesizes="${HERO_SIZES}"` : ''} fetchpriority="high">` : ''}${ld}
 </head>
 <body data-theme="${theme}">
 <a class="skip" href="#main">ಮುಖ್ಯ ವಿಷಯಕ್ಕೆ ತೆರಳಿ</a>
@@ -148,7 +158,7 @@ ${footer()}
 // ------------------------------------------------------------------ blocks
 const crumbs = (trail) => `<nav class="crumbs" aria-label="ನೀವು ಇಲ್ಲಿದ್ದೀರಿ"><a href="~/">ಮುಖಪುಟ</a>${trail.map(([u, l]) => `<span aria-hidden="true">›</span>${u ? `<a href="~/${u}">${l}</a>` : `<span>${l}</span>`}`).join('')}</nav>`;
 function phero({ trail, kicker, title, lead, img, imgAlt, extra = '', eager = true }) {
-  return `<section class="phero"><div class="wrap${img ? '' : ' solo'}"><div>${crumbs(trail)}${kicker ? `<span class="kicker">${kicker}</span>` : ''}<h1>${title}</h1>${lead ? `<p class="lead">${lead}</p>` : ''}${extra}</div>${img ? `<div class="ph-img">${pic(img, imgAlt || title, { eager })}</div>` : ''}</div></section>`;
+  return `<section class="phero"><div class="wrap${img ? '' : ' solo'}"><div>${crumbs(trail)}${kicker ? `<span class="kicker">${kicker}</span>` : ''}<h1>${title}</h1>${lead ? `<p class="lead">${lead}</p>` : ''}${extra}</div>${img ? `<div class="ph-img">${pic(img, imgAlt || title, { eager, sizes: PHERO_SIZES })}</div>` : ''}</div></section>`;
 }
 const secHead = (h, p = '', right = '') => `<div class="sec-head"><div><h2>${h}</h2>${p ? `<p>${p}</p>` : ''}</div>${right}</div>`;
 const checks = (items) => `<ul class="checks">${items.map((t) => `<li>${ic('check')}<span>${esc(t)}</span></li>`).join('')}</ul>`;
@@ -168,7 +178,7 @@ const iconCard = (icon, title, text, href) => `<${href ? `a href="~/${href}"` : 
 function ctaBand(title = 'ಸರ್ಕಾರಿ ಸೌಲಭ್ಯಗಳು ನಿಮ್ಮ ಹಕ್ಕು – ತಪ್ಪದೇ ಪಡೆಯಿರಿ', text = 'ಯಾವುದೇ ಮಾಹಿತಿ ಹಾಗೂ ಅರ್ಜಿಗಳಿಗೆ ಸಾರ್ವಜನಿಕ ಸಂಪರ್ಕ ಕೇಂದ್ರ, ದೇವನಹಳ್ಳಿ ಅವರನ್ನು ಸಂಪರ್ಕಿಸಿ.') {
   return `<section class="section"><div class="wrap"><div class="cta rv"><div><h2>${title}</h2><p>${text}</p></div><div class="btns">${waBtn('ನಮಸ್ಕಾರ, ಸರ್ಕಾರಿ ಸೌಲಭ್ಯಗಳ ಮಾಹಿತಿ ಬೇಕಿತ್ತು.', 'ವಾಟ್ಸಾಪ್', 'btn btn-gold')}<a class="btn btn-ghost" href="${tel(S.phones[0])}">${ic('phone')} ಕರೆ ಮಾಡಿ</a></div></div></div></section>`;
 }
-const gallery = (names, caption) => `<div class="masonry">${names.map((n) => `<a href="~/img/${n}.webp" data-lb="${esc(caption)}">${pic(n, caption)}</a>`).join('')}</div>`;
+const gallery = (names, caption) => `<div class="masonry">${names.map((n) => `<a href="~/img/${n}.webp" data-lb="${esc(caption)}">${pic(n, caption, { sizes: '(max-width: 640px) 92vw, 300px' })}</a>`).join('')}</div>`;
 
 // ------------------------------------------------------------------ sub-site menus
 const SUBNAV = {
@@ -213,7 +223,7 @@ const add = (p) => pages.push(p);
     <div class="btns"><a class="btn btn-primary" href="~/yojane/">${ic('gift')} ಸರ್ಕಾರಿ ಯೋಜನೆಗಳು</a><a class="btn btn-gold" href="~/yojane/arhate/">${ic('check')} ನನಗೆ ಯಾವ ಸೌಲಭ್ಯ?</a>${waBtn('ನಮಸ್ಕಾರ, ಸರ್ಕಾರಿ ಸೌಲಭ್ಯಗಳ ಮಾಹಿತಿ ಬೇಕಿತ್ತು.', 'ವಾಟ್ಸಾಪ್')}</div>
   </div>
   <div class="hero-photo">
-    <div class="frame">${pic('sahadesh-vidhanasoudha', 'ವಿಧಾನಸೌಧದ ಮುಂದೆ ಡಾ. ಟಿ.ಎಂ. ಸಹದೇಶ್', { eager: true })}</div>
+    <div class="frame">${pic('sahadesh-vidhanasoudha', 'ವಿಧಾನಸೌಧದ ಮುಂದೆ ಡಾ. ಟಿ.ಎಂ. ಸಹದೇಶ್', { eager: true, sizes: HERO_SIZES })}</div>
     <div class="hero-caption"><b>${S.leader}</b><span>${S.leaderRole}, ${S.org}</span></div>
     <div class="hero-badges"><div class="hb"><span class="ibox">${ic('trophy')}</span><span>ಗಿನ್ನಿಸ್ ವಿಶ್ವ ದಾಖಲೆ<small>23,000+ ಸಂಪರ್ಕಗಳು</small></span></div><div class="hb"><span class="ibox">${ic('award')}</span><span>ಗೌರವ ಡಾಕ್ಟರೇಟ್<small>ಸಮಾಜ ಸೇವೆಗಾಗಿ</small></span></div></div>
   </div>

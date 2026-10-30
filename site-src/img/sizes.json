@@ -3,73 +3,105 @@
 180,
 180
 ],
-"bio-photo-1.webp": [
-260,
-260
-],
-"bio-photo-2.webp": [
-260,
-260
-],
-"bio-photo-3.webp": [
-260,
-260
-],
-"bio-photo-4.webp": [
-260,
-248
+"busstand-bmtc-sm.webp": [
+520,
+261
 ],
 "busstand-bmtc.webp": [
+948,
+476
+],
+"busstand-ksrtc-sm.webp": [
 520,
-242
+229
 ],
 "busstand-ksrtc.webp": [
-520,
-228
+1040,
+458
 ],
-"camp-awareness.webp": [
+"camp-awareness-sm.webp": [
 600,
 297
 ],
-"camp-environment.webp": [
+"camp-awareness.webp": [
+1092,
+540
+],
+"camp-environment-sm.webp": [
 600,
 296
 ],
-"camp-health.webp": [
+"camp-environment.webp": [
+1096,
+540
+],
+"camp-health-sm.webp": [
 600,
 291
 ],
-"constitution-audience.webp": [
+"camp-health.webp": [
+1112,
+540
+],
+"constitution-audience-sm.webp": [
 560,
 263
 ],
-"constitution-award.webp": [
+"constitution-audience.webp": [
+1120,
+526
+],
+"constitution-award-sm.webp": [
 640,
 333
 ],
-"constitution-certificate.webp": [
+"constitution-award.webp": [
+1280,
+666
+],
+"constitution-certificate-sm.webp": [
 520,
 316
 ],
-"constitution-trophy.webp": [
+"constitution-certificate.webp": [
+1040,
+631
+],
+"constitution-trophy-sm.webp": [
 360,
 364
 ],
-"doctorate-certificate.webp": [
+"constitution-trophy.webp": [
+720,
+727
+],
+"doctorate-certificate-sm.webp": [
 460,
 372
+],
+"doctorate-certificate.webp": [
+840,
+680
 ],
 "favicon-48.png": [
 48,
 48
 ],
-"guinness-group.webp": [
+"guinness-group-sm.webp": [
 360,
-422
+439
+],
+"guinness-group.webp": [
+548,
+668
+],
+"guinness-medal-sm.webp": [
+360,
+456
 ],
 "guinness-medal.webp": [
-360,
-422
+524,
+664
 ],
 "icon-192.png": [
 192,
@@ -79,41 +111,77 @@
 512,
 512
 ],
-"infra-airport.webp": [
+"infra-airport-sm.webp": [
 480,
-155
+138
+],
+"infra-airport.webp": [
+960,
+275
+],
+"infra-busstand-sm.webp": [
+480,
+121
 ],
 "infra-busstand.webp": [
+960,
+242
+],
+"infra-education-sm.webp": [
 480,
-141
+149
 ],
 "infra-education.webp": [
+960,
+298
+],
+"infra-hospital-sm.webp": [
 480,
-169
+134
 ],
 "infra-hospital.webp": [
+960,
+267
+],
+"infra-industry-sm.webp": [
 480,
-150
+124
 ],
 "infra-industry.webp": [
+960,
+249
+],
+"infra-power-sm.webp": [
 480,
-145
+144
 ],
 "infra-power.webp": [
+960,
+289
+],
+"infra-roads-sm.webp": [
 480,
-164
+138
 ],
 "infra-roads.webp": [
+960,
+275
+],
+"infra-stadium-sm.webp": [
 480,
-155
+124
 ],
 "infra-stadium.webp": [
+960,
+249
+],
+"infra-water-sm.webp": [
 480,
-145
+149
 ],
 "infra-water.webp": [
-480,
-169
+960,
+298
 ],
 "memorandum.webp": [
 1080,
@@ -123,272 +191,400 @@
 1200,
 630
 ],
-"petition-buses.webp": [
+"petition-buses-sm.webp": [
 600,
-247
+242
+],
+"petition-buses.webp": [
+1200,
+483
+],
+"petition-busstand-sm.webp": [
+520,
+278
 ],
 "petition-busstand.webp": [
+1040,
+557
+],
+"petition-metro-sm.webp": [
 520,
-279
+322
 ],
 "petition-metro.webp": [
-520,
-344
+808,
+500
+],
+"place-avathi-sm.webp": [
+460,
+379
 ],
 "place-avathi.webp": [
+680,
+560
+],
+"place-fort-sm.webp": [
 460,
 379
 ],
 "place-fort.webp": [
-460,
-379
+680,
+560
 ],
-"place-lake.webp": [
+"place-lake-sm.webp": [
 460,
 371
 ],
-"place-nandi-sign.webp": [
+"place-lake.webp": [
+680,
+548
+],
+"place-nandi-sign-sm.webp": [
 420,
 386
 ],
+"place-nandi-sign.webp": [
+740,
+680
+],
+"place-nandi-sm.webp": [
+460,
+371
+],
 "place-nandi.webp": [
+680,
+548
+],
+"place-railway-sm.webp": [
 460,
 371
 ],
 "place-railway.webp": [
-460,
-371
+680,
+548
 ],
-"place-temple2.webp": [
+"place-temple2-sm.webp": [
 460,
 379
 ],
-"place-tippu.webp": [
+"place-temple2.webp": [
+680,
+560
+],
+"place-tippu-sm.webp": [
 460,
 375
 ],
-"place-venugopala.webp": [
+"place-tippu.webp": [
+672,
+548
+],
+"place-venugopala-sm.webp": [
 460,
 383
 ],
-"poster-release.webp": [
+"place-venugopala.webp": [
+672,
+560
+],
+"poster-release-sm.webp": [
 1000,
-457
+458
+],
+"poster-release.webp": [
+1600,
+732
 ],
 "posters/poster-1.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-10.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-12.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-14.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-15.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-16.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-18.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-19.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-2.webp": [
-1000,
-666
+1280,
+853
 ],
 "posters/poster-3.webp": [
-720,
-960
+960,
+1280
 ],
 "posters/poster-4.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-5.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-6.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-7.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-8.webp": [
-720,
-1080
+853,
+1280
 ],
 "posters/poster-9.webp": [
-720,
-1080
+853,
+1280
+],
+"sahadesh-armscrossed-sm.webp": [
+440,
+610
 ],
 "sahadesh-armscrossed.webp": [
-440,
-589
+788,
+1092
+],
+"sahadesh-namaste-blue-sm.webp": [
+640,
+562
 ],
 "sahadesh-namaste-blue.webp": [
-640,
-573
+1280,
+1125
 ],
-"sahadesh-namaste-blue2.webp": [
-440,
-712
+"sahadesh-namaste-pink-sm.webp": [
+560,
+510
 ],
 "sahadesh-namaste-pink.webp": [
-560,
-511
+1120,
+1021
 ],
-"sahadesh-orange.webp": [
-420,
-406
-],
-"sahadesh-orange2.webp": [
+"sahadesh-orange2-sm.webp": [
 420,
 394
 ],
-"sahadesh-suit-small.webp": [
-340,
-378
+"sahadesh-orange2.webp": [
+840,
+788
 ],
-"sahadesh-vidhanasoudha.webp": [
+"sahadesh-vidhanasoudha-sm.webp": [
 900,
 986
 ],
-"sahadesh-waistcoat.webp": [
-520,
-511
+"sahadesh-vidhanasoudha.webp": [
+1600,
+1753
 ],
-"sahadesh-white-airport.webp": [
-560,
-436
+"sahadesh-waistcoat-sm.webp": [
+520,
+510
+],
+"sahadesh-waistcoat.webp": [
+1040,
+1021
+],
+"sahadesh-whiteshirt-sm.webp": [
+520,
+860
 ],
 "sahadesh-whiteshirt.webp": [
-520,
-830
+980,
+1620
+],
+"scheme-disabled-sm.webp": [
+400,
+208
 ],
 "scheme-disabled.webp": [
+524,
+272
+],
+"scheme-education-sm.webp": [
 400,
-193
+238
 ],
 "scheme-education.webp": [
+524,
+312
+],
+"scheme-elderly-sm.webp": [
 400,
-221
+208
 ],
 "scheme-elderly.webp": [
+524,
+272
+],
+"scheme-farmer-sm.webp": [
 400,
-193
+238
 ],
 "scheme-farmer.webp": [
+524,
+312
+],
+"scheme-gas-sm.webp": [
 400,
-221
+238
 ],
 "scheme-gas.webp": [
-400,
-221
+524,
+312
+],
+"scheme-gramaone-sm.webp": [
+760,
+322
 ],
 "scheme-gramaone.webp": [
-760,
-323
+1520,
+645
+],
+"scheme-gruhalakshmi-sm.webp": [
+400,
+238
 ],
 "scheme-gruhalakshmi.webp": [
-400,
-221
+524,
+312
 ],
-"scheme-hospital.webp": [
-400,
-180
-],
-"scheme-lifecert.webp": [
-340,
-356
-],
-"scheme-loan.webp": [
-400,
-115
-],
-"scheme-women.webp": [
+"scheme-hospital-sm.webp": [
 400,
 193
 ],
-"scheme-youth.webp": [
+"scheme-hospital.webp": [
+564,
+272
+],
+"scheme-lifecert-sm.webp": [
+340,
+457
+],
+"scheme-lifecert.webp": [
+476,
+640
+],
+"scheme-loan-sm.webp": [
 400,
-207
+123
+],
+"scheme-loan.webp": [
+532,
+164
+],
+"scheme-women-sm.webp": [
+400,
+214
+],
+"scheme-women.webp": [
+508,
+272
+],
+"scheme-youth-sm.webp": [
+400,
+229
+],
+"scheme-youth.webp": [
+544,
+312
+],
+"seva-aadhaar-sm.webp": [
+360,
+217
 ],
 "seva-aadhaar.webp": [
-360,
-188
+452,
+272
 ],
 "seva-blood.webp": [
+356,
+272
+],
+"seva-health-sm.webp": [
 360,
-188
+217
 ],
 "seva-health.webp": [
+452,
+272
+],
+"seva-sapling-sm.webp": [
 360,
-185
+213
 ],
 "seva-sapling.webp": [
+460,
+272
+],
+"valmiki-auto-sm.webp": [
 360,
-185
-],
-"strip-1.webp": [
-400,
-160
-],
-"strip-2.webp": [
-400,
-175
-],
-"strip-3.webp": [
-400,
-170
-],
-"strip-4.webp": [
-400,
-165
-],
-"strip-5.webp": [
-400,
-157
+256
 ],
 "valmiki-auto.webp": [
-360,
-206
+528,
+376
+],
+"valmiki-farm-sm.webp": [
+400,
+189
 ],
 "valmiki-farm.webp": [
+576,
+272
+],
+"valmiki-foodtruck-sm.webp": [
 400,
-171
+211
 ],
 "valmiki-foodtruck.webp": [
+752,
+396
+],
+"valmiki-irrigation-sm.webp": [
 400,
-225
+172
 ],
 "valmiki-irrigation.webp": [
+624,
+268
+],
+"valmiki-shg-sm.webp": [
 400,
-200
+136
 ],
 "valmiki-shg.webp": [
-400,
-178
+728,
+248
+],
+"valmiki-shop-sm.webp": [
+340,
+284
 ],
 "valmiki-shop.webp": [
-340,
-251
+412,
+344
 ]
 }

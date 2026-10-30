@@ -19,27 +19,23 @@ CROPS = {
     # Portraits of Dr. T. M. Sahadesh
     "sahadesh-vidhanasoudha": (3, (140, 250, 820, 995), 900),
     "sahadesh-waistcoat": (1, (0, 155, 280, 430), 520),
-    "sahadesh-whiteshirt": (6, (590, 100, 853, 520), 520),
-    "sahadesh-namaste-blue": (14, (0, 60, 380, 400), 640),
-    "sahadesh-namaste-blue2": (8, (130, 60, 340, 400), 440),
+    "sahadesh-whiteshirt": (6, (608, 100, 853, 505), 520),
+    "sahadesh-namaste-blue": (14, (0, 60, 380, 394), 640),
     "sahadesh-namaste-pink": (16, (40, 20, 380, 330), 560),
-    "sahadesh-white-airport": (16, (480, 20, 840, 300), 560),
-    "sahadesh-armscrossed": (7, (640, 15, 853, 300), 440),
-    "sahadesh-orange": (8, (562, 1048, 800, 1278), 420),
+    "sahadesh-armscrossed": (7, (656, 15, 853, 288), 440),
     "sahadesh-orange2": (13, (0, 0, 240, 225), 420),
-    "sahadesh-suit-small": (5, (700, 10, 853, 180), 340),
     # Honours
     "doctorate-certificate": (1, (625, 185, 835, 355), 460),
-    "guinness-medal": (1, (700, 360, 845, 530), 360),
-    "guinness-group": (1, (700, 540, 845, 710), 360),
+    "guinness-medal": (1, (705, 362, 836, 528), 360),
+    "guinness-group": (1, (701, 541, 838, 708), 360),
     # Service / event photos
     "camp-health": (1, (12, 760, 290, 895), 600),
     "camp-environment": (1, (293, 760, 567, 895), 600),
     "camp-awareness": (1, (572, 760, 845, 895), 600),
-    "seva-aadhaar": (6, (14, 470, 148, 540), 360),
-    "seva-sapling": (6, (162, 470, 298, 540), 360),
-    "seva-health": (6, (312, 470, 448, 540), 360),
-    "seva-blood": (6, (464, 470, 598, 540), 360),
+    "seva-aadhaar": (6, (24, 484, 137, 552), 360),
+    "seva-sapling": (6, (152, 484, 267, 552), 360),
+    "seva-health": (6, (282, 484, 395, 552), 360),
+    "seva-blood": (6, (409, 484, 498, 552), 360),
     "poster-release": (5, (0, 300, 853, 690), 1000),
     "constitution-award": (18, (0, 790, 375, 985), 640),
     "constitution-certificate": (18, (380, 795, 660, 965), 520),
@@ -57,39 +53,39 @@ CROPS = {
     "place-lake": (16, (660, 838, 830, 975), 460),
     "place-nandi-sign": (8, (660, 420, 845, 590), 420),
     # Petitions / infrastructure
-    "petition-buses": (8, (10, 670, 350, 810), 600),
+    "petition-buses": (8, (12, 680, 330, 808), 600),
     "petition-busstand": (8, (560, 650, 840, 800), 520),
-    "petition-metro": (14, (341, 895, 560, 1040), 520),
-    "busstand-ksrtc": (14, (281, 712, 562, 835), 520),
-    "busstand-bmtc": (14, (579, 712, 843, 835), 520),
-    "infra-roads": (15, (17, 446, 281, 531), 480),
-    "infra-airport": (15, (298, 446, 562, 531), 480),
-    "infra-hospital": (15, (571, 446, 843, 531), 480),
-    "infra-education": (15, (17, 664, 281, 757), 480),
-    "infra-water": (15, (298, 664, 562, 757), 480),
-    "infra-power": (15, (571, 664, 843, 757), 480),
-    "infra-industry": (15, (17, 882, 281, 962), 480),
-    "infra-stadium": (15, (298, 882, 562, 962), 480),
-    "infra-busstand": (15, (571, 882, 843, 962), 480),
+    "petition-metro": (14, (350, 897, 552, 1022), 520),
+    "busstand-ksrtc": (14, (290, 714, 560, 833), 520),
+    "busstand-bmtc": (14, (604, 714, 841, 833), 520),
+    "infra-roads": (15, (20, 449, 278, 523), 480),
+    "infra-airport": (15, (301, 449, 559, 523), 480),
+    "infra-hospital": (15, (574, 449, 840, 523), 480),
+    "infra-education": (15, (20, 667, 278, 747), 480),
+    "infra-water": (15, (301, 667, 559, 747), 480),
+    "infra-power": (15, (574, 667, 840, 747), 480),
+    "infra-industry": (15, (20, 885, 278, 952), 480),
+    "infra-stadium": (15, (301, 885, 559, 952), 480),
+    "infra-busstand": (15, (574, 885, 840, 952), 480),
     # Schemes
-    "scheme-gruhalakshmi": (7, (17, 527, 158, 605), 400),
-    "scheme-gas": (7, (182, 527, 323, 605), 400),
-    "scheme-education": (7, (347, 527, 488, 605), 400),
-    "scheme-farmer": (7, (512, 527, 653, 605), 400),
-    "scheme-youth": (7, (677, 527, 828, 605), 400),
-    "scheme-elderly": (7, (17, 737, 158, 805), 400),
-    "scheme-disabled": (7, (182, 737, 323, 805), 400),
-    "scheme-women": (7, (347, 737, 488, 805), 400),
-    "scheme-loan": (7, (512, 737, 655, 778), 400),
-    "scheme-hospital": (7, (677, 737, 828, 805), 400),
+    "scheme-gruhalakshmi": (7, (23, 527, 154, 605), 400),
+    "scheme-gas": (7, (188, 527, 319, 605), 400),
+    "scheme-education": (7, (353, 527, 484, 605), 400),
+    "scheme-farmer": (7, (518, 527, 649, 605), 400),
+    "scheme-youth": (7, (688, 527, 824, 605), 400),
+    "scheme-elderly": (7, (23, 737, 154, 805), 400),
+    "scheme-disabled": (7, (188, 737, 319, 805), 400),
+    "scheme-women": (7, (357, 737, 484, 805), 400),
+    "scheme-loan": (7, (518, 737, 651, 778), 400),
+    "scheme-hospital": (7, (683, 737, 824, 805), 400),
     "scheme-gramaone": (13, (618, 795, 1254, 1065), 760),
-    "scheme-lifecert": (11, (700, 740, 853, 900), 340),
-    "valmiki-shop": (4, (20, 395, 135, 480), 340),
-    "valmiki-auto": (4, (640, 400, 780, 480), 360),
-    "valmiki-foodtruck": (4, (20, 690, 180, 780), 400),
-    "valmiki-shg": (4, (290, 620, 470, 700), 400),
-    "valmiki-irrigation": (4, (545, 650, 685, 720), 400),
-    "valmiki-farm": (4, (705, 655, 845, 715), 400),
+    "scheme-lifecert": (11, (726, 740, 845, 900), 340),
+    "valmiki-shop": (4, (27, 402, 130, 488), 340),
+    "valmiki-auto": (4, (668, 384, 800, 478), 360),
+    "valmiki-foodtruck": (4, (32, 667, 220, 766), 400),
+    "valmiki-shg": (4, (264, 640, 446, 702), 400),
+    "valmiki-irrigation": (4, (488, 642, 644, 709), 400),
+    "valmiki-farm": (4, (682, 640, 826, 708), 400),
 }
 
 
@@ -98,17 +94,52 @@ CACHE = Path(__file__).resolve().parent / ".sr-cache"
 GALLERY_POSTERS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 18, 19]
 
 
+# Poster labels that overlap plain background in a crop: (left, top, right, bottom) as fractions of the crop.
+ERASE = {
+    "sahadesh-namaste-blue": [(0.73, 0.0, 1.0, 0.10)],
+    "sahadesh-waistcoat": [(0.76, 0.0, 1.0, 0.05)],
+}
+
+
+def _from_cache(name, poster, box):
+    """An upscale of this exact box, or a larger cached one cropped down to it."""
+    exact = CACHE / f"{name}-{poster}-{'-'.join(map(str, box))}.png"
+    if exact.exists():
+        return Image.open(exact).convert("RGB")
+    for f in CACHE.glob(f"{name}-{poster}-*.png"):
+        ob = tuple(map(int, f.stem.split("-")[-4:]))
+        if ob[0] <= box[0] and ob[1] <= box[1] and ob[2] >= box[2] and ob[3] >= box[3]:
+            im = Image.open(f).convert("RGB")
+            k = im.width / (ob[2] - ob[0])
+            return im.crop(tuple(round(v) for v in ((box[0] - ob[0]) * k, (box[1] - ob[1]) * k,
+                                                     (box[2] - ob[0]) * k, (box[3] - ob[1]) * k)))
+    return None
+
+
+def _erase(name, im):
+    if name not in ERASE:
+        return im
+    import cv2
+    import numpy as np
+    arr = np.asarray(im)[:, :, ::-1].copy()
+    mask = np.zeros(arr.shape[:2], np.uint8)
+    h, w = mask.shape
+    for fx0, fy0, fx1, fy1 in ERASE[name]:
+        mask[int(fy0 * h):int(fy1 * h), int(fx0 * w):int(fx1 * w)] = 255
+    out = cv2.inpaint(arr, mask, 9, cv2.INPAINT_TELEA)
+    return Image.fromarray(out[:, :, ::-1])
+
+
 def hd_crop(name, poster, box):
     src = Image.open(SRC / f"{poster}.webp").convert("RGB").crop(box)
     if name in NO_UPSCALE:
         return src
     CACHE.mkdir(exist_ok=True)
-    key = CACHE / f"{name}-{poster}-{'-'.join(map(str, box))}.png"
-    if key.exists():
-        return Image.open(key).convert("RGB")
-    big = upscale4(src)
-    big.save(key)
-    return big
+    big = _from_cache(name, poster, box)
+    if big is None:
+        big = upscale4(src)
+        big.save(CACHE / f"{name}-{poster}-{'-'.join(map(str, box))}.png")
+    return _erase(name, big)
 
 
 def icon(size):
@@ -148,10 +179,13 @@ def main() -> None:
     for i, (name, (poster, box, width)) in enumerate(CROPS.items(), 1):
         im = hd_crop(name, poster, box)
         target = min(1600, width * 2, im.width)
-        if im.width != target:
-            im = im.resize((target, round(im.height * target / im.width)), Image.LANCZOS)
-        im.save(OUT / f"{name}.webp", "WEBP", quality=88, method=6)
-        print(f"{i}/{len(CROPS)} {name} {im.size}", flush=True)
+        full = im if im.width == target else im.resize((target, round(im.height * target / im.width)), Image.LANCZOS)
+        full.save(OUT / f"{name}.webp", "WEBP", quality=84, method=6)
+        small_w = min(width, target)
+        if small_w < target:  # 1x version for normal screens; the browser picks via srcset
+            full.resize((small_w, round(full.height * small_w / full.width)), Image.LANCZOS).save(
+                OUT / f"{name}-sm.webp", "WEBP", quality=82, method=6)
+        print(f"{i}/{len(CROPS)} {name} {full.size}", flush=True)
     for n in GALLERY_POSTERS:  # posters at their full received resolution
         Image.open(SRC / f"{n}.webp").convert("RGB").save(OUT / "posters" / f"poster-{n}.webp", "WEBP", quality=92, method=6)
     cover = Image.open(SRC / "3.webp").convert("RGB").crop((0, 270, 960, 775)).resize((1200, 631), Image.LANCZOS).crop((0, 0, 1200, 630))

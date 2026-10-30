@@ -284,7 +284,7 @@ a.media-card:hover .media img { transform: scale(1.06); }
 .phero .wrap { display: grid; grid-template-columns: 1.15fr .85fr; gap: 36px; align-items: center; padding: clamp(28px, 5vw, 56px) 0; }
 .phero .wrap.solo { grid-template-columns: 1fr; }
 .phero h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); }
-.phero .ph-img { border-radius: 24px; overflow: hidden; box-shadow: var(--shadow-lg); border: 5px solid #fff; aspect-ratio: 4 / 3; background: var(--accent-soft); }
+.phero .ph-img { border-radius: 24px; overflow: hidden; box-shadow: var(--shadow-lg); border: 5px solid #fff; aspect-ratio: 4 / 3; background: var(--accent-soft); width: 100%; max-width: 520px; justify-self: center; }
 .phero .ph-img img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; }
 .crumbs { font-size: .88rem; color: var(--muted); margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 6px; }
 .crumbs a { color: var(--muted); }
@@ -464,14 +464,9 @@ table.data a { font-weight: 700; }
 .sdialog .sres a small { color: var(--muted); }
 .sdialog .sres a:hover { border-color: var(--accent); text-decoration: none; }
 
-/* reveal on scroll */
-.rv { opacity: 0; transform: translateY(22px); transition: opacity .6s ease, transform .6s ease; }
-.rv.in { opacity: 1; transform: none; }
-.no-js .rv { opacity: 1; transform: none; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
-  .rv { opacity: 1; transform: none; }
 }
 
 @media print {
